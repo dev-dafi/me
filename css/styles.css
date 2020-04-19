@@ -86,8 +86,8 @@ margin: 40px auto 60px;
 .copyright {
   color: #dbdbdb;
   font-size: 0.75rem;
-  padding: 20px 0 0;
   margin-bottom: 0;
+  padding: 20px 0 0;
 
 }
 
@@ -145,7 +145,7 @@ margin-right: 30px;
   margin-left: 30px;
 }
 
-.btn {
+.button {
 
 background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #8EC6C5), color-stop(1, #6983AA) );
 background:-moz-linear-gradient( center top, #8EC6C5 5%, #6983AA 100% );
@@ -178,14 +178,14 @@ text-align:center;
 text-shadow:0px 0px 0px #2f6627;
 }
 
-.btn:hover {
+.button:hover {
 background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #F4F4F4), color-stop(1, #8566AA) );
 background:-moz-linear-gradient( center top, #F4F4F4 5%, #8566AA 100% );
 filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#F4F4F4', endColorstr='#8566AA');
 background-color:#F4F4F4;
 }
 
-.btn:active {
+.button:active {
 position:relative;
 top:1px;
 }
