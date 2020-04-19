@@ -178,6 +178,56 @@ width: 30%;
   margin-left: 30px;
 }
 
+/* ---------------------------------------------------- */
+/* -----------------Animated Hamburger -----------------*/
+/* ---------------------------------------------------- */
+
+/* Hamburger Menu Appearance */
+.icon-bar {
+	width: 22px;
+	height: 2px;
+	background-color: #B6B6B6;
+	display: block;
+	transition: all 0.2s;
+	margin-top: 4px
+}
+
+.navbar-toggler {
+  border: none;
+  background: transparent !important;
+}
+
+/* Hamburger Animation*/
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+}
+
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+
+/* ---------------------------------------------------- */
+/* ------------------ Contact Butto---------------------*/
+/* ---------------------------------------------------- */
+
 .button {
 
 background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #8EC6C5), color-stop(1, #6983AA) );
