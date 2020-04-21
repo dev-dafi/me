@@ -294,3 +294,43 @@ font-family: 'Montserrat', sans-serif;
 .project-box {
   padding: 5%;
 }
+
+
+.cd-top--is-visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.cd-top--fade-out {
+  opacity: .5;
+}
+
+/* ---------------------------------------------------- */
+/* ------------------ Back to Top Btn ------------------*/
+/* ---------------------------------------------------- */
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #8EC6C5), color-stop(1, #6983AA));
+  background: -moz-linear-gradient(center top, #8EC6C5 5%, #6983AA 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8EC6C5', endColorstr='#6983AA');
+  background-color: #8EC6C5;
+  color: #ffffff; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #F4F4F4), color-stop(1, #8566AA));
+  background: -moz-linear-gradient(center top, #F4F4F4 5%, #8566AA 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F4F4F4', endColorstr='#8566AA');
+  background-color: #F4F4F4;
+}
