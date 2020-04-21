@@ -271,3 +271,26 @@ font-family: 'Montserrat', sans-serif;
   position: relative;
   top: 1px;
 }
+
+
+/* ---------------------------------------------------- */
+/* ------------------- Project Cards -------------------*/
+/* ---------------------------------------------------- */
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.mockup{
+  max-height: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.projects {
+  padding: 0 10%;
+}
+
+.project-box {
+  padding: 5%;
+}
