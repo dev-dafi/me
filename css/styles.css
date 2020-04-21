@@ -50,6 +50,7 @@ hr {
 p {
   font-family: 'Montserrat', sans-serif;
   line-height: 2;
+
 }
 
 /* ---------------------------------------------------- */
@@ -156,6 +157,7 @@ font-family: 'Montserrat', sans-serif;
   float: left;
   margin-right: 30px;
   margin-top: 15px;
+  margin-bottom: 75px;
   width: 30%;
 }
 
@@ -294,6 +296,7 @@ font-family: 'Montserrat', sans-serif;
 
 .project-box {
   padding: 5%;
+  padding-bottom: 0;
 }
 
 
