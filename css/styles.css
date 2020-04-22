@@ -30,7 +30,7 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   font-weight: normal;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 h3 {
@@ -135,7 +135,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .skill-row {
-  margin: 100px auto 100px auto;
+  margin: 75px auto 100px auto;
   text-align: left;
   width: 50%;
 }
@@ -173,6 +173,7 @@ font-family: 'Montserrat', sans-serif;
 
 .profile-picture {
   border-radius: 50%;
+  margin-bottom: 30px;
   width: 15%;
 }
 
@@ -291,6 +292,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .projects {
+
   padding: 0 10%;
 }
 
